@@ -301,8 +301,8 @@
             this.clickLeftFn = () => this.navigate('left');
             this.DOM.interaction.left.addEventListener('click', this.clickLeftFn);
             
-            this.clickCenterFn = () => this.openSlide();
-            this.DOM.interaction.center.addEventListener('click', this.clickCenterFn);
+            // this.clickCenterFn = () => this.openSlide();
+            // this.DOM.interaction.center.addEventListener('click', this.clickCenterFn);
 
             this.mouseenterCenterFn = () => {
                 if ( this.isAnimating ) {
